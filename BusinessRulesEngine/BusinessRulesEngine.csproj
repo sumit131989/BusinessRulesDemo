@@ -43,8 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessRules\BookValidation.cs" />
+    <Compile Include="BusinessRules\IBusinessRulesValidation.cs" />
+    <Compile Include="BusinessRules\MembershipUpgradeValidation.cs" />
+    <Compile Include="BusinessRules\MembershipValidation.cs" />
+    <Compile Include="BusinessRules\PhysicalProductValidation.cs" />
+    <Compile Include="BusinessRules\VideoValidation.cs" />
+    <Compile Include="Helper\ServiceHelper.cs" />
+    <Compile Include="Model\Payment.cs" />
+    <Compile Include="Model\PaymentFor.cs" />
+    <Compile Include="Model\Services.cs" />
+    <Compile Include="Model\VideoCategories.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validations\ValidationManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
